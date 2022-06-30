@@ -9,4 +9,4 @@ console.log('Hello ' + myName);
 
 myName = 'Jong';
 
-console.log('your new name iss ' + myName);
+console.log('your new name is ' + myName);
