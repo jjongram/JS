@@ -7,6 +7,6 @@ console.log(a * b);
 console.log(a / b);
 console.log('Hello ' + myName);
 
-myName = 'Jonggs';
+myName = 'Jong';
 
 console.log('your new name is ' + myName);
