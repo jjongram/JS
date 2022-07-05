@@ -1,9 +1,16 @@
-const player = {
-  name: 'nico',
-  sayHello: function (otherPersonsName) {
-    console.log('hello ' + otherPersonsName ' nice to meet you');
+const calculator = {
+  add: function (a, b) {
+    console.log(a + b);
   },
+  minus: function (a, b) {
+    console.log(a - b)
+  },
+  div: function (a, b) {
+    console.log(a / b)
+  }
+  powerof: function(a, b) {
+    console.log(a**b)
+  }
 };
 
-console.log(player.name);
-player.sayHello('lynn');
+calculator.add(5, 1);
