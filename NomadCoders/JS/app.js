@@ -13,4 +13,7 @@ const calculator = {
   }
 };
 
-calculator.add(5, 1);
+calculator.add(5, 2)
+calculator.minus(5,2)
+calculator.div(5, 2)
+calculator.powerof(5, 2)
