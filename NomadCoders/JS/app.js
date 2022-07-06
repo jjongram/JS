@@ -1,15 +1,15 @@
 const calculator = {
   add: function (a, b) {
-    console.log(a + b);
+    return a + b;
   },
   min: function (a, b) {
-    console.log(a - b);
+    return a - b;
   },
   div: function (a, b) {
-    console.log(a / b);
+    return a / b;
   },
   powerof: function (a, b) {
-    console.log(a ** b);
+    return a ** b;
   },
 };
 
