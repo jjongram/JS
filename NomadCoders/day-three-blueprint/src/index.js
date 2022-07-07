@@ -21,6 +21,8 @@ title의 색상은 colors 배열에 있는 색을 사용해야 합니다.
 모든 조건이 충족되지 못하면 ❌를 받습니다.
 
 */
+const h2 = document.querySelector('h2');
+
 const superEventHandler = {
   handleMouseEnter: function () {
     h2.innerText = 'Mouse is here!';
@@ -30,6 +32,9 @@ const superEventHandler = {
   },
   handleRightClick: function () {
     h2.innerText = 'That was a right click!';
+  },
+  handleWindowResize: function () {
+    h2.innerText = 'Your window resized now!';
   },
 };
 
