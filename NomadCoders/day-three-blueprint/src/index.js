@@ -1,6 +1,35 @@
 // <⚠️ DONT DELETE THIS ⚠️>
 import './styles.css';
-const colors = ['#1abc9c', '#3498db', '#9b59b6', '#f39c12', '#e74c3c'];
+// const colors = ['#1abc9c', '#3498db', '#9b59b6', '#f39c12', '#e74c3c'];
+// const h2 = document.querySelector('h2');
+// const colors = ['#1abc9c', '#3498db', '#9b59b6', '#f39c12', '#e74c3c'];
+
+// const randomColors = colors[Math.floor(Math.random() * colors.length)];
+
+// const superEventHandler = {
+//   mouseenterHandle: function () {
+//     h2.style.color = randomColors;
+//     h2.innerText = 'Mouse is here';
+//   },
+//   mouseLeaveHandle: function () {
+//     h2.style.color = randomColors;
+//     h2.innerText = 'Mouse is gone';
+//   },
+//   contextMenuHandle: function () {
+//     h2.style.color = randomColors;
+//     h2.innerText = 'You click right button';
+//   },
+//   windowResizeHandle: function () {
+//     h2.style.color = randomColors;
+//     h2.innerText = 'Your window resized now!';
+//   },
+// };
+
+// h2.addEventListener('mouseenter', superEventHandler.mouseenterHandle);
+// h2.addEventListener('mouseleave', superEventHandler.mouseLeaveHandle);
+// h2.addEventListener('contextmenu', superEventHandler.contextMenuHandle);
+
+// window.addEventListener('resize', superEventHandler.windowResizeHandle);
 // <⚠️ /DONT DELETE THIS ⚠️>
 
 /*
@@ -21,19 +50,24 @@ title의 색상은 colors 배열에 있는 색을 사용해야 합니다.
 모든 조건이 충족되지 못하면 ❌를 받습니다.
 
 */
+const colors = ['#1abc9c', '#3498db', '#9b59b6', '#f39c12', '#e74c3c'];
 const h2 = document.querySelector('h2');
-
+// const colors = ['#1abc9c', '#3498db', '#9b59b6', '#f39c12', '#e74c3c'];
 const superEventHandler = {
   handleMouseEnter: function () {
+    h2.style.color = colors[0];
     h2.innerText = 'Mouse is here!';
   },
   handleMouseLeave: function () {
+    h2.style.color = colors[1];
     h2.innerText = 'Mouse is gone!';
   },
   handleRightClick: function () {
+    h2.style.color = colors[2];
     h2.innerText = 'That was a right click!';
   },
   handleWindowResize: function () {
+    h2.style.color = colors[3];
     h2.innerText = 'Your window resized now!';
   },
 };
