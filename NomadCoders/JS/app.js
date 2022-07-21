@@ -7,3 +7,5 @@ function onLoginSubmit() {
 }
 
 loginForm.addEventListener('submit', onLoginSubmit);
+
+loginForm.addEventListener('submit', onLoginSubmit);
